@@ -7,11 +7,8 @@
 import cv2
 import numpy as np
 import pafy
-# url of the video to predict Age and gender
 
-#url = 'https://www.youtube.com/watch?v=6-xB3ij-5xM'
-#vPafy = pafy.new(url)
-#play = vPafy.getbest(preftype="mp4")
+
 cap = cv2.VideoCapture('WhatsApp Video 2018-12-17 at 12.56.55 PM.mp4')
 #cap = cv2.imread('rahul.jpg',0)
 print(cap)
